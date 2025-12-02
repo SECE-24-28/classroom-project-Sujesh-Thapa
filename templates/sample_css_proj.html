@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        marquee {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            top: 55px;
+            width: 100%;
+            z-index: 900;
+        }
+
+        section {
+            padding: 120px 30px 40px;
+            min-height: 100vh;
+        }
+
+        #hm { background-color: lightcyan; }
+        #ab { background-color: lightyellow; }
+        #con { background-color: lightgreen; }
+        #det { background-color: lightpink; }
+
+        h1 {
+            padding: 50px;
+            position: sticky;
+            top: 50px;
+            left: 50px;
+        }
+
+        p {
+            line-height: 1.7rem;
+            font-size: 1.1rem;
+            letter-spacing: 0.02rem;
+            margin-left: 30px;
+        }
+
+        details {
+            background: white;
+            padding: 20px;
+            width: 350px;
+            border-radius: 5px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .logo {
+            color: white;
+            font-size: 1.6rem;
+            font-weight: bold;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+    <div class="logo">Tour and Travel</div>
+
+    <a href="#hm">Home</a>
+    <a href="#ab">About</a>
+    <a href="#con">Contact</a>
+    <a href="#det">Details</a>
+    </nav>
+
+    <!-- Marquee -->
+    <marquee behavior="scroll" direction="left">
+        Grab 10% discount on your first travel with us! Contact +977 9842612830 or visit our office at Baneshwor-12, Kathmandu, Street No: 2.
+    </marquee>
+
+    <!-- HOME -->
+    <section id="hm">
+        <h1>Home</h1>
+        <p>
+            Welcome to your gateway to unforgettable journeys and inspiring discoveries. Whether you're drawn to 
+            the energy of bustling cities, the serenity of untouched nature, or the charm of hidden small-town 
+            treasures, we guide you every step of the way. Our mission is to make your travel planning effortless 
+            by offering expert insights, detailed guides, and personalized suggestions tailored to your goals.
+        </p>
+        <br>
+        <p>
+            From breathtaking mountain adventures to peaceful coastal escapes, we bring you closer to the destinations 
+            you've always dreamed of. Explore travel stories, practical tips, budget-friendly recommendations, and 
+            must-see attractions curated just for you. Let your next great adventure begin right here.
+        </p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="ab">
+        <h1>About</h1>
+        <p>
+            Our mission is simple: to make travel inspiring, accessible, and deeply meaningful for everyone. What 
+            started as a passion for exploring new places has grown into a platform dedicated to helping travelers 
+            discover the beauty, culture, and diversity our world has to offer. We aim to empower adventurers with 
+            reliable information, real experiences, and trusted recommendations.
+        </p>
+        <br>
+        <p>
+            Our team consists of travelers, storytellers, photographers, and explorers who believe that every journey 
+            holds the power to transform. By sharing authentic travel content and practical guidance, we hope to spark 
+            curiosity, encourage cultural appreciation, and inspire others to step outside their comfort zones.
+        </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="con">
+        <h1>Contact</h1>
+        <p>
+            We’d love to hear from you! Whether you have questions, feedback, travel inquiries, collaboration proposals, 
+            or simply want to share your travel experiences, we’re here to help. Our team is dedicated to responding 
+            quickly and ensuring your message reaches the right place.
+        </p>
+        <br>
+        <p>
+            Feel free to reach out using the details below. Let’s stay connected and keep the spirit of adventure alive — 
+            one conversation at a time.
+        </p>
+
+        <br><br>
+
+        <details>
+            <summary>Email</summary>
+            <p>tourandtravel8848@gmail.com</p>
+        </details>
+
+        <br>
+
+        <details>
+            <summary>Phone Number</summary>
+            <p>+977 9842612830</p>
+        </details>
+
+        <br>
+
+        <details>
+            <summary>Office Location</summary>
+            <p>Baneshwor-12, Kathmandu, Street No: 2</p>
+        </details>
+    </section>
+
+    <!-- DETAILS -->
+    <section id="det">
+        <h1>Details</h1>
+        <p>
+            Travel opens the door to new experiences, allowing us to step beyond familiar surroundings and discover 
+            diverse cultures, landscapes, and ideas. Whether wandering through bustling cities, relaxing on quiet beaches, 
+            or exploring winding mountain paths, travel broadens our perspectives and deepens our understanding of the world.
+        </p>
+        <br>
+        <p>
+            Every journey encourages curiosity and strengthens appreciation for the differences and similarities that 
+            connect people everywhere. From food and festivals to nature and traditions, each destination offers 
+            something unique. Let every mile you travel become a story worth remembering.
+        </p>
+    </section>
+
+</body>
+</html>
