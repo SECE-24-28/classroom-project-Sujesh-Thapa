@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Flex Cards</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            width: 350px;
+            flex: 1 1 300px;
+        }
+
+        .image-box img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .text-box h2 {
+            margin: 0;
+            font-size: 5rem;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1 style="padding: 30px;">Art and Innoviation</h1>
+
+    <div class="container">
+
+        <div class="card">
+
+            <div class="image-box">
+                <img src="C:\Users\ACER\Pictures\sujee.jpg" alt="Travel Image">
+            </div>
+
+            <div class="text-box">
+                <h2>Discover New View</h2>
+                <h3>Discover beyond the imagination like you have never seen before.</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
