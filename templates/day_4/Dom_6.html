@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document6</title>
+
+    <script>
+        function add() {
+            var item = document.getElementById("InsertItems").value;
+            if(item==""){
+                alert("Please Insert Items");
+            }
+            
+            var li = document.createElement("li");
+            li.textContent = item;
+
+            document.getElementById("main").appendChild(li);
+            
+            document.getElementById("InsertItems").value = "";
+
+        }
+        
+        function remove()
+        {
+            var item = document.getElementById("InsertItems").value;
+            var list = document.getElementsByTagName("li");
+            for (var i = 0; i < list.length; i++) {
+                if (list[i].textContent === item) {
+                    list[i].remove();
+                    document.getElementById("InsertItems").value = "";
+                    return;
+                }
+            }
+            alert("Item not found");
+        }
+    </script>
+
+</head>
+
+<body id="main">
+    <input type="text" id="InsertItems" name="item" placeholder="Insert Items">
+    <button id="btn" onclick="add()">Add Item</button> 
+    <button id="bt" onclick="remove()">Remove Item</button> 
+</body>
+</html>
