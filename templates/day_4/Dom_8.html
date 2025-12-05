@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background</title>
+    <script>
+        function  change()
+        {
+            let body = document.getElementById("main");
+            if(body.style.backgroundColor == "black")
+            {
+                body.style.backgroundColor = "white";
+                body.style.color = "black";
+                document.querySelector("h1").textContent = "Light Mode";
+            }
+            else
+            {
+                body.style.backgroundColor = "black";
+                body.style.color = "white";
+                document.querySelector("h1").textContent = "Dark Mode";
+            }
+        }
+    </script>
+</head>
+
+<body id="main">
+    
+    <h1>Light Mode</h1>
+    <button id="btn" onclick="change()">Change Mode</button>
+    
+</body>
+</html>
