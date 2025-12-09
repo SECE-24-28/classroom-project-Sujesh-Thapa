@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #2c30b1;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(45, 62, 162, 0.247);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links h1 {
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-links h1:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.bg {
+    background-color: rgba(205, 113, 113, 0.121);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.bg ol {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
