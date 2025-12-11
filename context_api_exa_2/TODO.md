@@ -1,0 +1,5 @@
+- [x] Fix import path in App.jsx from './context/DataContext' to './DataContext'
+- [x] Fix import path in One.jsx from './context/DataContext' to './DataContext'
+- [x] Fix import path in Two.jsx from './context/DataContext' to './DataContext'
+- [x] Fix import path in Three.jsx from './context/DataContext' to './DataContext'
+- [x] Remove unused 'count' state in DataContext.jsx
