@@ -13,10 +13,22 @@
       "body": "This post is about something."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Third Post",
       "datetime": "Dec 11,2025 2:52:49 PM",
       "body": "Kaka ley malai 10 crore dincha"
+    },
+    {
+      "id": "4",
+      "title": "Paisa",
+      "datetime": "Dec 12,2025 11:08:37 AM",
+      "body": "It's dherai kaam lagne kura. Paisa ma sanga yeah!!"
+    },
+    {
+      "id": "6",
+      "title": "Masu",
+      "datetime": "Dec 12,2025 11:30:21 AM",
+      "body": "masu cooked by sasu"
     }
   ]
 }
