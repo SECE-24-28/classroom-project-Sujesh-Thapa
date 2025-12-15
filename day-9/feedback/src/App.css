@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rm;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -38,5 +39,64 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #ffffff;
+}
+
+
+ol {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  border-bottom: 2px solid #333;
+  padding-bottom: 1rem;
+}
+
+ol li a {
+  text-decoration: none;
+  color:darkred;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  text-align: left;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin-top: 1rem;
+}
+
+.status {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: #eee;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+input
+{
+  background-color: gainsboro;
+  color: black;
+}
+
+textarea
+{
+  background-color: #a7a7a7;
+  color: black;
+}
+
+*
+{
+  background-color: white;
+}
+
+div
+{
+  margin: auto;
 }
